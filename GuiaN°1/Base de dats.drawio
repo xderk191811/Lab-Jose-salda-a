@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-03-15T18:58:11.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="1dXJcTjjXCdIbeSHWCAT" version="24.0.7" type="device">
+  <diagram name="Página-1" id="gkm85g9KrTV2-_cc_kze">
+    <mxGraphModel dx="1461" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-1" value="Producto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-2" value="ID Producto&lt;br&gt;Categoria&lt;br&gt;Marca&lt;br&gt;Precio&lt;br&gt;Stock&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-4" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-5" value="ID Cliente&lt;br&gt;Nombre&lt;br&gt;Apellido&lt;br&gt;Genero&lt;br&gt;DUI&lt;br&gt;Direccion&lt;br&gt;Telefono&lt;br&gt;Correo Electronico" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-6" value="Proveedor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-7" value="ID Proveedor&lt;br&gt;Nombre Proveedor&lt;br&gt;Razon Social&lt;br&gt;NIT/RUC&lt;br&gt;Direccion&lt;br&gt;Telefono&lt;br&gt;Correo Electronico&lt;br&gt;Sitio Web" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-8" value="Venta" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-9" value="ID Venta&lt;br&gt;Fecha&lt;br&gt;Cliente&lt;br&gt;Productos&lt;br&gt;Cantidad&lt;br&gt;Precio&lt;br&gt;Forma de pago&lt;br&gt;Nombre vendedor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-10" value="Distribuidor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7TPskp1V3dKM-IVQRDF-11" value="ID Distribuidor&lt;br&gt;Nombre de Distribuidor&lt;br&gt;Direccion&lt;br&gt;Telefono&lt;br&gt;Correo Electronico&lt;br&gt;Sitio web&lt;br&gt;Contacto" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-1" value="Empleado" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-2" value="ID Empleado&lt;br&gt;Nombre&lt;br&gt;Fecha de Nacimiento&lt;br&gt;Genero&lt;br&gt;DUI&lt;br&gt;Direccion&lt;br&gt;Telefono&lt;br&gt;Correo Electronico" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="790" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-3" value="Invetario" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-4" value="Detalle Venta" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-5" value="Detalle compra" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u6vX2_JkPTWQfK3Hn-zg-6" value="Factura venta" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-1" value="IdInventario&lt;div&gt;Prodcucto_IdProducto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-2" value="IdDetalle_Venta&lt;div&gt;Venta_IdVenta&lt;/div&gt;&lt;div&gt;Producto_Idproducto&lt;/div&gt;&lt;div&gt;Cantidad_vendida&lt;/div&gt;&lt;div&gt;Detalle_venta&lt;/div&gt;&lt;div&gt;Precio unitario&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-3" value="IdDetalle_compra&lt;div&gt;Cantidad_comprada&lt;/div&gt;&lt;div&gt;Precio_unitario&lt;/div&gt;&lt;div&gt;Producto_IdProducto&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-4" value="IdFactura_venta&lt;div&gt;Venta_Idventa&lt;/div&gt;&lt;div&gt;Fecha_Emision&lt;/div&gt;&lt;div&gt;Numero_Factura&lt;/div&gt;&lt;div&gt;Total_Factura&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="450" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-5" value="Vendedor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-6" value="IdVendedor&lt;div&gt;Nombre_vendedor&lt;/div&gt;&lt;div&gt;Telefono&lt;/div&gt;&lt;div&gt;Correo_electronico&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-7" value="Compra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pp4e09dBvNG_m7X0oSXi-8" value="Idcompra&lt;div&gt;Fecha compra&lt;/div&gt;&lt;div&gt;IdDistribuidor&lt;/div&gt;&lt;div&gt;Total_compra&lt;/div&gt;&lt;div&gt;Metodo_pago&lt;/div&gt;&lt;div&gt;Estado_compra&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
